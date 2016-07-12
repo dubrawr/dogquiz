@@ -9,101 +9,143 @@ body {
   margin-top: 200px;
   margin-right: auto;
   margin-left: auto;
+  font-size: 20px;
 }
 
+/*Start of the Game*/
 .start {
   height: 560px;
   background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
-.title {
-  padding-top: 350px;
-  text-shadow: 2px 2px 2px black;
-  text-align: center;
-  color: white;
-  font-size: 36px;
-}
+	.title {
+	  padding-top: 350px;
+	  text-shadow: 2px 2px 2px black;
+	  text-align: center;
+	  color: white;
+	  font-size: 36px;
+	}
 
-.button {
-  text-align: center;
-  background-color: white;
-  border-radius: 5px;
-  width: 230px;
-  height: 60px;
-  margin: 0 auto;
-  line-height: 60px;
-  font-size: 20px;
-  display: block;
-  box-shadow: 2px 2px 2px black;
-}
+	.button {
+	  text-align: center;
+	  background-color: white;
+	  border-radius: 5px;
+	  width: 230px;
+	  height: 60px;
+	  margin: 0 auto;
+	  line-height: 60px;
+	  display: block;
+	  box-shadow: 2px 2px 2px black;
+	}
 
+	.button:hover {
+	  background-color: red;
+	  cursor: pointer;
+	  color: white;
+	}
+
+/*Question phase during the game*/
 .game {
-  width: 100%; display: none;
+  width: 100%;
+  display: none;
 }
 
-.dog {
-  float: right;
-  display: block;
-  margin-right: 60px;
-  margin-top: 100px;
-}
+	.dog {
+	  float: right;
+	  display: block;
+	  margin-right: 60px;
+	  margin-top: 100px;
+	}
 
-.question {
-  margin-top: 130px;
-  margin-left: 60px;
-  float: left;
-  color: white;
-  font-size: 36px;
-}
+	.question {
+	  margin-top: 130px;
+	  margin-left: 60px;
+	  float: left;
+	  color: white;
+	  font-size: 36px;
+	}
 
-.paw {
-  margin-right: 20px;
-}
+	.paw {
+	  margin-right: 20px;
+	}
 
-ul {
-  margin-left: 60px;
-  font-size: 20px;
-  color: white;
-  float: left;
-  clear: left;
-  list-style-type: none;
-}
+	ul {
+	  margin-left: 60px;
+	  color: white;
+	  float: left;
+	  clear: left;
+	  list-style-type: none;
+	}
 
-li {
-  margin-bottom: 25px;
-  height: 50px;
-}
+	li {
+	  margin-bottom: 25px;
+	  height: 50px;
+	}
 
-li:hover {
-  color: red;
-  cursor: pointer;
-}
+	li:hover {
+	  color: red;
+	  cursor: pointer;
+	}
 
-.next-question {
+/*Question Counter*/
+.question-counter {
   margin-top: 20px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
   text-align: center;
   display: none;
 }
 
-.correct {text-align:center; font-size: 50px; color: white; padding-top: 100px; display: none;}
-h3 {font-size: 30px;}
+.correct {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 100px;
+  display: none;
+}
 
-.wrong {text-align:center; font-size: 50px; color: white; padding-top: 100px; display:none;}
+	h3 {
+	  font-size: 30px;
+	}
 
-.results {color: white; padding:50px; text-align: center;}
-.complete {font-size: 70px; margin-bottom: 60px;}
-p {font-size: 38px;}
-.new-game {color:red;
-	font-size:40px;
-	margin-top: 20px;
+.wrong {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 100px;
+  display: none;
+}
+
+/*Quiz Results*/
+.results {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  display: none;
+}
+
+.complete {
+  font-size: 70px;
+  margin-bottom: 60px;
+}
+
+	p {
+	  font-size: 38px;
+	}
+
+
+/* New Game Button */
+.new-game {
+  color: red;
+  font-size: 40px;
+  margin-top: 20px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-display:none;}
+  display: none;
+}

@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
 
 <div class="main">
 
-	<div class="start">
-	<h1 class="title">Think you know your dog breeds?</h1>
-	<span class="button">CLICK TO PLAY!</span>
+    <div class="start">
+      <h1 class="title">Think you know your dog breeds?</h1>
+      <span class="button">CLICK TO PLAY!</span>
 
-	</div>
+    </div>
 
-<div class="game">
-<img class="dog" src="images/1.png">
-<div class="question">Guess the breed:</div>
-<ul>
-<li><img class="paw" src="images/whitepaw.png"><span>Labrador Retriever</span></li>
-<li><img class="paw" src="images/whitepaw.png"><span>Australian Shepherd</span></li>
-<li><img class="paw" src="images/whitepaw.png"><span>Border Collie</span></li>
-</ul>
+    <div class="game">
+      <img class="dog" src="images/1.png">
+      <div class="question">Guess the breed:</div>
+      <ul>
+        <li><img class="paw" src="images/whitepaw.png"><span>Labrador Retriever</span></li>
+        <li><img class="paw" src="images/whitepaw.png"><span>Australian Shepherd</span></li>
+        <li><img class="paw" src="images/whitepaw.png"><span>Border Collie</span></li>
+      </ul>
+    </div>
+
+    <div class="correct">
+      <h2>CORRECT</h2>
+      <h3>Border Collies are the best doggies ever!</h3>
+    </div>
+
+    <div class="wrong">WRONG</div>
+
+    <div class="results">
+      <h1 class="complete">QUIZ COMPLETE</h1>
+      <p>Out of 5 Questions, you got</p>
+      <p><span class="number-of-correct">1</span> CORRECT</p>
+      <img src="images/one5.png">
+    </div>
+
+
 </div>
 
-<div class="correct">
-<h2>CORRECT</h2>
-<h3>Border Collies are the best doggies ever!</h3>
-</div>
-
-<div class="wrong">WRONG</div>
-
-<div class="results">
-	<h1 class="complete">QUIZ COMPLETE</h1>
-	<p>Out of 5 Questions, you got</p>
-	<p><span class="number-of-correct">5</span> CORRECT</p>
-</div>
+  <div class="question-counter">QUESTION #<span class="question-number">1</span> OUT OF 5</div>
+  <div class="new-game">NEW GAME</div>
 
 
-</div>
-
-<div class="next-question">QUESTION #<span class="question-number">1</span> OUT OF 5</div>
-<div class="new-game">NEW GAME</div>
-
-
-
-
-<!-- <script src="js/script.js"></script> -->
+<script src="js/quiz.js"></script>
 </body>
+
 </html>
