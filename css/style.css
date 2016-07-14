@@ -153,6 +153,9 @@ body {
   display: none;
 }
 
+.new-game:hover {cursor:pointer;
+text-decoration: underline; ;}
+
 .next-button {
 	  text-align: center;
 	  background-color: red;
