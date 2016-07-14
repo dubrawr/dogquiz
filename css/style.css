@@ -53,7 +53,7 @@ body {
   display: none;
 }
 
-	.dog {
+	#dog {
 	  float: right;
 	  display: block;
 	  margin-right: 60px;
@@ -70,7 +70,10 @@ body {
 
 	.paw {
 	  margin-right: 20px;
+	  vertical-align: middle;
 	}
+	
+	.paw + span {vertical-align: middle;}
 
 	ul {
 	  margin-left: 60px;
@@ -149,3 +152,26 @@ body {
   text-align: center;
   display: none;
 }
+
+.next-button {
+	  text-align: center;
+	  background-color: red;
+	  width: 150px;
+	  height: 40px;
+	  margin: 0 auto;
+	  line-height: 40px;
+	  display: block;
+	  box-shadow: 2px 2px 2px black;
+	  float: right;
+	  color: white;
+	}
+
+.next-button:hover {
+	  cursor: pointer;
+	}
+
+.next {margin-top: 20px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;}

@@ -19,7 +19,7 @@
     </div>
 
     <div class="game">
-      <img class="dog" src="images/1.png">
+      <img id="dog" src="images/1.png">
       <div class="question">Guess the breed:</div>
       <ul>
         <li><img class="paw" src="images/whitepaw.png"><span>Labrador Retriever</span></li>
@@ -30,26 +30,30 @@
 
     <div class="correct">
       <h2>CORRECT</h2>
-      <h3>Border Collies are the best doggies ever!</h3>
+      <h3></h3>
     </div>
 
-    <div class="wrong">WRONG</div>
+    <div class="wrong">Sorry, wrong answer!</div>
 
     <div class="results">
       <h1 class="complete">QUIZ COMPLETE</h1>
       <p>Out of 5 Questions, you got</p>
-      <p><span class="number-of-correct">1</span> CORRECT</p>
+      <p><span class="number-of-correct"></span> CORRECT</p>
       <img src="images/one5.png">
     </div>
 
 
 </div>
 
-  <div class="question-counter">QUESTION #<span class="question-number">1</span> OUT OF 5</div>
+  <div class="question-counter"><p>QUESTION #<span class="question-number">1</span> OUT OF 5</p>
+  </div>
+	<div class="next"><span class="next-button">NEXT QUESTION</span></div>
+
   <div class="new-game">NEW GAME</div>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="js/quiz.js"></script>
+
 </body>
 
 </html>
